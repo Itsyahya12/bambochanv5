@@ -1366,17 +1366,17 @@ MODILEGUISOMEXHUB.MouseButton1Click:Connect(function()
 game.CoreGui:FindFirstChild("SOMEXHUB").Enabled = not game.CoreGui:FindFirstChild("SOMEXHUB").Enabled
 end)
 
-local Library = Update:Window("    Atomic HUB","",Enum.KeyCode.RightControl)
+local Library = Update:Window("    Bambo Hub","",Enum.KeyCode.RightControl)
 Main = Library:Tab("Main")
 
 Main:Line()
 
-Main:Label("Discord Developer : Atomic HUB#4539")
+Main:Label("Discord Developer :its_yahya.")
   Main:Button("Copy Link Discord",function()
-  setclipboard("https://discord.gg/Cw8pWS659x")
+  setclipboard("https://discord.gg/8cY67CrrCZ")
   game.StarterGui:SetCore("SendNotification", {
     Icon = "rbxassetid://7251993295";
-    Title = "Atomic HUB : Discord Server",
+    Title = "Bambo HUB : Discord Server",
     Text = "Copy Link Discord The Clipboard !"
  })
  wait(.1)
